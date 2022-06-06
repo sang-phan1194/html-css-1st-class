@@ -1,61 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice 4</title>
+    <style>
+        div {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 14.5px;
+            border: 0.5px solid grey;
+            width: 25%;
+            margin-left: 35%;
+            background-color: rgb(233, 213, 126);
+            color: rgb(0, 0, 0);
+        }   
+        div, img, textarea, h2, button, .input{
+            border: 0.5px solid black;
+            border-radius: 5px;
+        }         
+        img{
+            width: 35%;
+            margin-left: 30%;
+        }        
+        h2{
+            background-color: rgb(247, 212, 97);
+            margin: 30px 50px;
+            width: fit-content;
+            font-size: 25px;
+            text-align: center;  
+            margin-left: 15%;
+            padding: 10px;                    
+        }       
+        form{            
+            margin-bottom: 30px;
+            margin-left: 15%;
+        }        
+        textarea{
+            width: 80%;            
+        }
+        button{            
+            font-size: 14px;
+            height: 25px;
+            width: 80px;            
+        }
+        input, textarea{
+            margin-top: 7px;
+        }
+        .input1{
+            width: 80%;
+            height: 25px;
+            border: 0.5px solid black;
+            border-radius: 5px;
+        }        
+
+    </style>
 </head>
+
 <body>
-    <h2>Cat City ID Registration</h2>
-    <img src="./cat-avatar.jpeg" alt="Cat-avatar" width="8%">
-    <form action="#">
-        <label for="">Name:</label><br>
-        <input type="text"><br> <br>
+    <div>
+        <h2>Cat City ID Registration</h2>
+        <img src="./cat-avatar.jpeg" alt="Cat-avatar">
+        <form action="#">
+            <label for="">Name:</label><br>
+            <input type="text" class="input1"><br> <br>
 
-        <label for="">Age:</label><br>
-        <input type="number"><br> <br>
+            <label for="">Age:</label><br>
+            <input type="number" class="input1"><br> <br>
 
-        <label for="">Gender:</label><br>
-        <input type="Radio" name="gender">Male
-        <input type="radio" name="gender">Female
-        <input type="radio" name="gender">Other<br> <br>
+            <label for="">Gender:</label><br>
+            <input type="Radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other<br> <br>
 
-        <label for="">Fur color:</label><br>
-        <input type="Radio" name="color">Đen
-        <input type="radio" name="color">Trắng
-        <input type="radio" name="color">Vàng<br> <br>
+            <label for="">Fur color:</label><br>
+            <input type="Radio" name="color">Black
+            <input type="radio" name="color">White
+            <input type="radio" name="color">Yellow<br> <br>
 
-        <label for="">Cat loves to:</label><br>
-        <input type="checkbox">Eat
-        <input type="checkbox">Drink Milk
-        <input type="checkbox">Sleep<br><br>
+            <label for="">Cat loves to:</label><br>
+            <input type="checkbox">Eat
+            <input type="checkbox">Drink Milk
+            <input type="checkbox">Sleep<br><br>
 
-        <label for="">Cat hates:</label><br>
-        <input type="checkbox">Bath
-        <input type="checkbox">Hug
-        <input type="checkbox">Other cats<br><br>
+            <label for="">Cat hates:</label><br>
+            <input type="checkbox">Bath
+            <input type="checkbox">Hug
+            <input type="checkbox">Other cats<br><br>
 
-        <label for="">Cat Breed:</label>
-        <select name="" id="">
-            <option value="">Siamese</option>
-            <option value="">Aegean</option>
-            <option value="">Arabian Mau</option>
-            <option value="">Bombay</option>
-            <option value="">Birman</option>
-            <option value="">British Shorthair</option>
-            <option value="">British Longhair</option>            
-        </select><br><br>
+            <label for="">Cat Breed:</label>
+            <select name="" class="input1">
+                <option value="">Siamese</option>
+                <option value="">Aegean</option>
+                <option value="">Arabian Mau</option>
+                <option value="">Bombay</option>
+                <option value="">Birman</option>
+                <option value="">British Shorthair</option>
+                <option value="">British Longhair</option>
+            </select><br><br>
 
-        <label for="">Cat ID:</label><br>
-        <input type="text"><br><br>
+            <label for="">Cat ID:</label><br>
+            <input type="text" class="input1"><br><br>
 
-        <label for="">Other Informations:</label><br>
-        <textarea name="" id="" cols="30" rows="7"></textarea><br><br>
+            <label for="">Other Informations:</label><br>
+            <textarea name="" id="" cols="30" rows="7"></textarea><br><br>
 
-        <button type="reset">Reset</button>
-        <button type="submit">Finish!</button>
-    </form>
-    
+            <button type="reset">Reset</button>
+            <button type="submit">Finish!</button>
+        </form>
+    </div>
+
 </body>
+
 </html>
