@@ -1,0 +1,44 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    margin-top: 5%;
+    background-color:khaki;
+
+    /* text properties */
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container div{
+    width: 50%;
+}
+#item-1{
+    background-color:deeppink;
+}
+#item-2{
+    background-color:blue;
+}
+#item-3{
+    background-color:greenyellow;
+}
+#item-4{
+    background-color:darkgreen;
+}
+#item-5{
+    background-color:orange;
+}
+#item-6{
+    background-color:red;
+}
