@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;   
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+}
+.container{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: green;
+    display: grid;
+    grid-template-columns: 2fr 5fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+header{
+    background-color:chocolate;
+    grid-column: 1 / 4;
+}
+.menu{
+    background-color:darkkhaki;
+    grid-row: 2 / 4;
+}
+.main{
+    background-color: bisque;
+}
+.right{
+    background-color: blue;
+}
+footer{
+    background-color: blueviolet;
+    grid-column: 2 / 4;
+}
