@@ -15,16 +15,19 @@ body {
     width: 100%;
     height: 100%;
 }
+
 header {
     width: 100%;
     height: 10%;
     color: var(--text-color);
     background-color: var(--background-color);
 }
+
 header ul {
     float: left;
     height: 100%;
 }
+
 header li {
     list-style: none;
     float: left;
@@ -33,137 +36,113 @@ header li {
     padding: 20px 25px;
 }
 
-header li:hover, button:hover {
+header li:hover,
+button:hover {
     background-color: black;
     color: white;
 }
-@media only screen and (min-width: 1200px) {
-    
-    button {
-        width: 6%;
-        height: 100%;
-        margin-right: 2%;
-        color: var(--text-color);
-        background-color: var(--background-color);
-        border: none;
-        float: right;
-    }
-    
-    aside {
-        float: left;
-        width: 15%;
-        height: 80%;
-        background-color: #f1f1f1;
-    }
-    
-    .left li {
-        margin-top: 10%;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    .right div {
-        width: 80%;
-        height: 20%;
-        padding: 15%;
-        margin: auto;
-        margin-top: 7%;
-        border: 1px solid grey;
-    }
-    
-    .main {
-        width: 70%;
-        height: 80%;
-        float: left;
-    }
-    
-    .main div {
-        padding: 2%;
-    }
-    
-    h1,
-    h2,
-    p {
-        text-align: left;
-    }
-    
-    p {
-        margin-top: 2%;
-    }
-    
-    footer {
-        clear: both;
-        width: 100%;
-        height: 10%;
-        padding: 2%;
-        color: white;
-        background-color: #555555;
-    }
 
+button {
+    width: 6%;
+    height: 100%;
+    margin-right: 2%;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    border: none;
+    float: right;
 }
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
-    button {
-        width: 90px; 
-        height: 100%;
-        margin-right: 2%;
-        color: var(--text-color);
-        background-color: var(--background-color);
-        border: none;
-        float: right;
-    }
-    
-    aside {
-        float: left;
-        width: 15%;
-        /* height: 40%; */
-        background-color: #f1f1f1;
-    }
-    
-    .left li {
-        margin-top: 10%;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    .right div {
-        width: 80%;
-        height: 20%;
-        padding: 15%;
-        margin: auto;
-        margin-top: 7%;
-        border: 1px solid grey;
-    }
-    
+
+aside {
+    float: left;
+    width: 15%;
+    height: 80%;
+    background-color: #f1f1f1;
+}
+
+.left li {
+    margin-top: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.right div {
+    width: 80%;
+    height: 20%;
+    padding: 14%;
+    margin: 3.5% auto;
+    border: 1px solid grey;
+}
+
+.main {
+    width: 70%;
+    height: 80%;
+    float: left;
+}
+
+.main div {
+    padding: 2%;
+}
+
+h1,
+h2,
+p {
+    text-align: left;
+}
+
+p {
+    margin-top: 2%;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 10%;
+    padding: 2%;
+    color: white;
+    background-color: #555555;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .main {
         width: 85%;
-        height: 90%;
-        float: right;
     }
-    
-    .main div {
-        padding: 2%;
+
+    aside {
+        width: 15%;
     }
-    
-    h1,
-    h2,
-    p {
-        text-align: left;
+}
+
+@media only screen and (max-width: 767px) {
+    header {
+        display: none;
     }
-    
-    p {
-        margin-top: 2%;
-    }
-    
-    footer {
-        clear: both;
+    .main {
+        float: unset;
         width: 100%;
-        /* height: 10%; */
+        height: 90%;
+    }
+
+    aside {
+        width: 100%;
+        height: 10%;
+        float: unset;
+    }
+    .left li {
+        float: left;
+        display: block;
         padding: 2%;
-        color: white;
-        background-color: #555555;
+        width: 30%;
+        margin-top: unset;
+    }
+    
+    .right div {
+        float: left;
+        width: 40%;
+        height: 100%;
+        margin-top: unset;
+        margin-left: 5%;
+        padding: 2%;
     }
 }
