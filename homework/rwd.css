@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+:root {
+    --background-color: #222222;
+    --text-color: #9d9b99;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+header {
+    width: 100%;
+    height: 10%;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+header ul {
+    float: left;
+    height: 100%;
+}
+header li {
+    list-style: none;
+    float: left;
+    display: block;
+    height: 100%;
+    padding: 20px 25px;
+}
+
+header li:hover, button:hover {
+    background-color: black;
+    color: white;
+}
+@media only screen and (min-width: 1200px) {
+    
+    button {
+        width: 6%;
+        height: 100%;
+        margin-right: 2%;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        border: none;
+        float: right;
+    }
+    
+    aside {
+        float: left;
+        width: 15%;
+        height: 80%;
+        background-color: #f1f1f1;
+    }
+    
+    .left li {
+        margin-top: 10%;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .right div {
+        width: 80%;
+        height: 20%;
+        padding: 15%;
+        margin: auto;
+        margin-top: 7%;
+        border: 1px solid grey;
+    }
+    
+    .main {
+        width: 70%;
+        height: 80%;
+        float: left;
+    }
+    
+    .main div {
+        padding: 2%;
+    }
+    
+    h1,
+    h2,
+    p {
+        text-align: left;
+    }
+    
+    p {
+        margin-top: 2%;
+    }
+    
+    footer {
+        clear: both;
+        width: 100%;
+        height: 10%;
+        padding: 2%;
+        color: white;
+        background-color: #555555;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    button {
+        width: 90px; 
+        height: 100%;
+        margin-right: 2%;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        border: none;
+        float: right;
+    }
+    
+    aside {
+        float: left;
+        width: 15%;
+        /* height: 40%; */
+        background-color: #f1f1f1;
+    }
+    
+    .left li {
+        margin-top: 10%;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .right div {
+        width: 80%;
+        height: 20%;
+        padding: 15%;
+        margin: auto;
+        margin-top: 7%;
+        border: 1px solid grey;
+    }
+    
+    .main {
+        width: 85%;
+        height: 90%;
+        float: right;
+    }
+    
+    .main div {
+        padding: 2%;
+    }
+    
+    h1,
+    h2,
+    p {
+        text-align: left;
+    }
+    
+    p {
+        margin-top: 2%;
+    }
+    
+    footer {
+        clear: both;
+        width: 100%;
+        /* height: 10%; */
+        padding: 2%;
+        color: white;
+        background-color: #555555;
+    }
+}
