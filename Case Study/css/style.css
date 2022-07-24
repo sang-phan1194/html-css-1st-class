@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+a.nav-link {
+  text-decoration: none;
+  font-size: 13.5px;
+  color: #ffffff;
+}
+
+a.nav-link:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+#logo-header {
+  height: 58.13px;
+  border: 1px solid white;
+}
+
+ul a img:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.row h1.heading {
+  font-family: "Prata", serif;
+  font-size: 36px;
+  color: #000000;
+}
+
+.card {
+  border: none;
+}
+.card .overlay {
+  position: relative;
+}
+.card .overlay img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+}
+.card .overlay .middle {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+.card .overlay .middle .bi {
+  margin-left: 30px;
+  position: relative;
+  transition: 0.3s;
+}
+.card .overlay .middle .bi::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  right: -12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  z-index: -1;
+}
+.card .overlay .middle .bi:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+#products .card:hover {
+  border: 1px solid grey;
+}
+#products .card:hover .middle {
+  opacity: 1;
+  bottom: 50%;
+}
+#products .card:hover img {
+  opacity: 0.5;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  margin: 20px auto;
+}
+
+.bottom-line {
+  border-bottom: 1px solid rgb(213, 213, 213);
+  width: 100%;
+  margin: 2px auto;
+}
+
+#news .row .card {
+  font-size: 13px;
+}
+#news .row .card img {
+  border-radius: 2%;
+}
+#news .row .card img:hover,
+#news .row .card h5:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.4s;
+}
+#news .row .card h5:hover {
+  color: blue;
+}
+
+footer {
+  line-height: 1.2rem;
+  font-size: 13px;
+}
+footer #social-media a {
+  list-style: none;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: white;
+}
+
+h2#heading-h2 {
+  margin-top: 2%;
+}
+
+#side-content ul li a {
+  color: #000000;
+}
+#side-content ul li a:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+#side-news .card {
+  font-size: 13px;
+}
+#side-news .card img {
+  border-radius: 2%;
+}
+#side-news .card img:hover,
+#side-news .card h6:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.4s;
+}
+#side-news .card h6:hover {
+  color: blue;
+}
+
+@media screen and (max-width: 567px) {
+  #header-nav,
+#side-news {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pal3xdk.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gotu&family=Nunito+Sans:wght@200&family=Poppins:wght@100&family=Prata&display=swap"
+        rel="stylesheet">
+    <title>SSScent</title>
+</head>
+
+<body>
+    <!-- header -->
+    <!-- navbar -->
+    <header id="header" class="p-3 bg-dark">
+        <div class="row justify-content-center container px-5">
+            <div class="col-lg-10 col-md-8 row">
+                <div class="col-lg-3 col-md-12">
+                    <img id="logo-header" src="../images/logo.png" alt="logo">
+                </div>
+                <div class="col-lg-9">
+                    <ul id="header-nav" class="nav navbar-text">
+                        <li><a href="index.html" class="nav-link px-2">TRANG CHỦ</a></li>
+                        <li><a href="review.html" class="nav-link px-2">REVIEWS</a></li>
+                        <li><a href="contact.html" class="nav-link px-2">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="nav navbar-text col-lg-2 col-md-4">
+                <li><a href="#" class="nav-link px-2"><i class="bi bi-search"></i></a></li>
+                <li><a href="#" class="nav-link px-2"><i class="bi bi-heart"></i></a></li>
+                <li><a href="#" class="nav-link px-2"><i class="bi bi-cart"></i></a></li>
+            </ul>
+        </div>
+
+    </header>
+    <!-- end of navbar -->
+
+    <!-- carousel -->
+    <div id="carouselExampleControls" class="carousel slide m-1" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../images/slide-1.jpg" class="d-block w-100" alt="slide1">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/slide-2.jpg" class="d-block w-100" alt="slide2">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/slide-3.png" class="d-block w-100" alt="slide3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- end of carousel -->
+    <!-- end of header -->
+    <!-- categories -->
+    <div class="container">
+        <ul class="nav row d-flex flex-lg-wrap mx-5">
+            <a class="nav-link col-lg-3 col-sm-12" href="#"><img class="w-100" src="../images/banner1.jpeg"
+                    alt="banner1"></a>
+            <a class="nav-link col-lg-3 col-sm-12" href="#"><img class="w-100" src="../images/banner2.jpeg"
+                    alt="banner2"></a>
+            <a class="nav-link col-lg-3 col-sm-12" href="#"><img class="w-100" src="../images/banner3.jpeg"
+                    alt="banner3"></a>
+            <a class="nav-link col-lg-3 col-sm-12" href="#"><img class="w-100" src="../images/banner4.jpeg"
+                    alt="banner4"></a>
+        </ul>
+    </div>
+    <!-- end of categories -->
+    <!-- products -->
+    <div id="products" class="container">
+        <div class="row mx-5 my-5">
+            <h1 class="heading">SẢN PHẨM NỔI BẬT</h1>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/hot-product/hot-1.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Roja Parfums Oceania Limited</p>
+                        <p>9.900.000</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/hot-product/hot-2.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Lalique Ombre Noire Pour Homme EDP</p>
+                        <p>1.350.000</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/hot-product/hot-3.jpeg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">El Ganso Aftergame After A Great Start The Best Is Yet To Come EDT</p>
+                        <p>1.180.000</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/hot-product/hot-4.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Thomas Kosmala No. 4 Apres L'Amour EDP</p>
+                        <p>5.200.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-5 my-5">
+            <h1 class="heading">SẢN PHẨM MỚI</h1>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/women-product/wm-3.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Le Labo Lys 41</p>
+                        <p>5.950.000</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/new-product/new-3.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Hermes Terre d'Hermes EDT</p>
+                        <p>2.250.000</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/new-product/new-2.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Afnan 9 AM EDP</p>
+                        <p>1.100.000</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/new-product/new-4.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Orto Parisi Bergamask Parfum</p>
+                        <p>4.700.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-5 my-5">
+            <h1 class="heading">NƯỚC HOA NAM</h1>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/men-product/men-1.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Giorgio Armani Acqua Di Gio Pour Homme EDP</p>
+                        <p>3.190.000</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/men-product/men-2.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Lalique Ombre Noire Pour Homme EDP</p>
+                        <p>1.350.000</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/men-product/men-3.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Nautica Voyage EDT</p>
+                        <p>885.000</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/men-product/men-4.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Maurer & Wirtz 4711 Original Eau De Cologne EDC</p>
+                        <p>1.050.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-5 my-5">
+            <h1 class="heading">NƯỚC HOA NỮ</h1>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/women-product/wm-1.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Juicy Couture Oui EDT 100ml</p>
+                        <p>1.750.000</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/women-product/wm-2.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Byredo Pulp EDP</p>
+                        <p>650.000</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/new-product/new-1.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Christian Louboutin Loubidoo EDP</p>
+                        <p>6.200.000</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="overlay">
+                        <img src="../images/women-product/wm-4.jpg" class="card-img-top" alt="product1">
+                        <div class="middle">
+                            <i class="bi bi-zoom-in"></i>
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-cart"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Parfums De Marly Delina Royal Essence</p>
+                        <p>4.750.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end of products -->
+    <div class="bottom-line"></div>
+    <div class="bottom-line"></div>
+    <div class="bottom-line"></div>
+    <!-- news -->
+    <div id="news" class="container">
+        <h2 class="text-center">TIN TỨC</h2>
+        <div class="row mx-5 gx-5">
+            <div class="card mb-3 col-lg-6">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../images/news/new1.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Issey Miyake Fusion D'Issey Extreme Intense - Bản release mới nhất!
+                            </h5>
+                            <p class="card-text"><small>07/06/2022 | Viết bởi: Blanc Perfume</small></p>
+                            <p class="card-text text-muted">Vào mùa thu năm 2021, Fusion D'issey Extrême đã kể về cuộc
+                                hành trình sâu thẳm chinh phục đại dương bao la của mình. Hương thơm có sự tương phản...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="card mb-3 col-lg-6">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../images/news/new2.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">El Ganso Collection - Những chàng Tây Ban Nha thanh lịch.</h5>
+                            <p class="card-text"><small>23/06/2022 | Viết bởi: Blanc Perfume</small></p>
+                            <p class="card-text text-muted">El Ganso trong mắt giới mộ điệu là sự giao thoa giữa rất
+                                nhiều vẻ đẹp, khi những sản phẩm đầu tiên ra mắt chỉ cách đây 2 năm, thế nhưng...</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="card mb-3 col-lg-6">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../images/news/new3.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Giorgio Armani Acqua Di Gio Men EDP - Làn gió mới!</h5>
+                            <p class="card-text"><small>25/05/2022 | Viết bởi: Blanc Perfume</small></p>
+                            <p class="card-text text-muted">Sau những thành công của ACQUA DI GIÒ với rất nhiều phiên
+                                bản từng làm mưa làm gió trên thị trường, thì mới đây nhà Giorgio Armani vừa tung ra...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="card mb-3 col-lg-6">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../images/news/new4.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Marc Jacobs Daisy Spring - Thì ra, mùa xuân, hoa nở - là vì em!</h5>
+                            <p class="card-text"><small>05/05/2022 | Viết bởi: Blanc Perfume</small></p>
+                            <p class="card-text text-muted">Marc Jacobs Daisy Spring sở hữu nét quyến rũ vượt bậc có thể
+                                gây nghiện, đồng thời thể hiện một tinh thần tươi trẻ. Daisy Spring là chai nước hoa nữ
+                                đã ...</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- end of news -->
+    <!-- footer -->
+    <footer class="container-fluid bg-dark text-white pt-5 px-5">
+        <div class="container row gx-2 my-5">
+            <ul class="d-flex flex-column gy-2 col-lg-3 col-sm-6">
+                <p><img id="logo-header" src="../images/logo.png" alt="logo"></p>
+                <p>HỘ KINH DOANH BLANC PERFUME</p>
+                <p>GPKD số: 58A8011955</p>
+                <p>Ngày cấp: 01/10/2021</p>
+                <p>Cấp bởi: UBND TP Trà Vinh</p>
+                <p><i class="bi bi-geo-alt"></i> 77 Điện Biên Phủ, P.6, Trà Vinh</p>
+                <p><i class="bi bi-telephone"></i> 0966 434 787</p>
+                <p><i class="bi bi-envelope"></i> support@blanc.com.vn</p>
+            </ul>
+            <ul class="nav d-block col-lg-3 col-sm-6 col-xm-12">
+                <li>HỖ TRỢ KHÁCH HÀNG</li>
+                <li><a class="nav-link" href=""><i class="bi bi-chevron-right"></i> Chính sách bảo mật</a></li>
+                <li><a class="nav-link" href=""><i class="bi bi-chevron-right"></i> Chính sách vận chuyển</a></li>
+                <li><a class="nav-link" href=""><i class="bi bi-chevron-right"></i> Chính sách đổi trả</a></li>
+                <li><a class="nav-link" href=""><i class="bi bi-chevron-right"></i> Chính sách thanh toán</a></li>
+
+            </ul>
+            <ul class="nav d-block col-lg-3 col-sm-6 col-xm-12">
+                <li>HỖ TRỢ KHÁCH HÀNG</li>
+                <li><a class="nav-link" href=""><i class="bi bi-chevron-right"></i> Hướng dẫn mua hàng</a></li>
+                <li><a class="nav-link" href=""><i class="bi bi-chevron-right"></i> Hướng dẫn thanh toán</a></li>
+                <li><a class="nav-link" href=""><i class="bi bi-chevron-right"></i> Hướng dẫn giao nhận</a></li>
+                <li><a class="nav-link" href=""><i class="bi bi-chevron-right"></i> Điều khoản dịch vụ</a></li>
+
+            </ul>
+            <div id="iframe" class="col-lg-3 col-sm-6 col-xm-12">
+                <h6>KẾT NỐI TRÊN FACEBOOK</h6>
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fblancperfumevn%2F&tabs=timeline&width=300&height=150&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="300" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+        </div>
+        <div class="bottom-line"></div>
+
+        <div class="container row p-2 my-2">
+            <p class="col-lg-8">2020 - Bản quyền thuộc về Chiết Nước Hoa Chuyên Nước Hoa Chiết Chính Hãng - Cung cấp bởi
+                Sapo</p>
+            <div id="social-media" class="col-lg-4 text-end">
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-chat-dots"></i></a>
+                <a href=""><i class="bi bi-telephone"></i></a>
+            </div>
+        </div>
+
+
+
+    </footer>
+    <!-- end of footer -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
