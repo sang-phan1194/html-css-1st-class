@@ -9,8 +9,9 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-  opacity: 0.9;
+  opacity: 0.5;
   transition: 0.3s;
+  color: grey;
 }
 
 #logo-header {
@@ -131,10 +132,6 @@ h2#heading-h2 {
 
 #side-content ul li a {
   color: #000000;
-}
-#side-content ul li a:hover {
-  opacity: 0.7;
-  transition: 0.3s;
 }
 
 #side-news .card {
