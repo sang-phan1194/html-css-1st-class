@@ -148,7 +148,7 @@ h2 {
         .card img:hover,
         .card h5:hover {
             cursor: pointer;
-            opacity: 0.7;  
+            opacity: 0.7;
         }
 
         .card h5:hover {
@@ -172,13 +172,21 @@ footer {
             line-height: 40px;
             border-radius: 50%;
             text-align: center;
-            background-color: white;
+            background-color: #ffffff;
         }
     }
 
 }
 
-//reviews page
+//Styling for review.html
+
+.breadcrumb-item {
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+}
+
 //news-review
 h2#heading-h2 {
     margin-top: 2%;
@@ -197,7 +205,6 @@ h2#heading-h2 {
 }
 
 #side-news {
-
 
     .card {
         font-size: 13px;
@@ -218,6 +225,17 @@ h2#heading-h2 {
         color: blue;
     }
 
+
+}
+
+ul.pagination {
+    li {
+        a.page-link {
+            color: grey;
+            background-color: #ffffff;
+        }
+
+    }
 
 }
 

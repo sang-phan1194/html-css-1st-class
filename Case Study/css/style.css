@@ -122,7 +122,12 @@ footer #social-media a {
   line-height: 40px;
   border-radius: 50%;
   text-align: center;
-  background-color: white;
+  background-color: #ffffff;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #000000;
 }
 
 h2#heading-h2 {
@@ -146,6 +151,11 @@ h2#heading-h2 {
 }
 #side-news .card h6:hover {
   color: blue;
+}
+
+ul.pagination li a.page-link {
+  color: grey;
+  background-color: #ffffff;
 }
 
 @media screen and (max-width: 567px) {
